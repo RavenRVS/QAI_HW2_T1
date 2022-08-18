@@ -1,12 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        int ticketCost = 2000;
-        int allBonus;
+        int ticketCost = 10_000;
         int currentBonus = ticketCost / 20;
-        allBonus = +currentBonus;
         System.out.println("Количество начисленных бонусов: " + currentBonus);
-        System.out.println("Общее количество бонусов: " + allBonus);
-
-    }
+      }
 }
